@@ -6,11 +6,11 @@
 }
 
 .logo {
-	background: url("/img/logo-art-3");
+	background: url("/img/logo-art-3.svg");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 135px;
-	background-color: pink
+	background-size: contain;
+	background-color: pink;
 	height: 80px;
 	/*
 	display: block;
