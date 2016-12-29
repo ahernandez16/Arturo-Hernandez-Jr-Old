@@ -1,0 +1,25 @@
+.navbar-fixed-left {
+	width: 139px;
+	position: fixed;
+	border-radius: 0;
+	height: 100%;
+}
+
+.navbar-fixed-left .navbar-nav > ul {
+	margin: 20px 0;
+	padding: 0 20px 0 0;
+	text-align: right;
+}
+
+.navbar-fixed-left .navbar-nav > li {
+	float: none; 
+	margin-bottom: 10px;
+	
+}
+
+.navbar-fixed-left + .container-fluid {
+	margin-left: 139px;
+	background: pink;
+}
+
+

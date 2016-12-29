@@ -7,19 +7,43 @@
 	<link rel="icon" href="#">
 	<title>Arturo Hernandez Jr</title>
 
-	<!-- Bootstrap core CSS -->
+	<!-- Bootstrap framework -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<!-- Custom style -->
+	<!-- Font-Awesome icons -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- Custom stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-<div class="container">
-	<h1>Arturo Hernandez</h1>
-</div>
-	
+	<div class="navbar navbar-default navbar-fixed-left">
+		<div class="container-fluid">
+			<!-- Logo and menu get grouped together for mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-burger">
+					<span class="sr-only">Toggle navigation</span><i class="fa fa-bars" aria-hidden="true"></i>
+				</button>
+				<a class="navbar-brand" href="#">Logo</a>
+			</div>
+			<!-- Collect nav content -->
+			<div class="collapse navbar-collapse" id="menu-burger">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">Resume</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
 
+	<div class="container-fluid">
+		<div class="row" style="height: 2000px">
+			<h1>Arturo Hernandez</h1>
+		</div>
+	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" ></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
