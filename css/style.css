@@ -5,6 +5,19 @@
 	height: 100%;
 }
 
+.logo {
+	/*background-image: url("/img/logo-art.svg");*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 80px;
+
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
 .header-position {
 	position: fixed;
 	top: 0px;
@@ -20,17 +33,16 @@
 	float: none; 
 	margin-bottom: 5px;
 	text-align: right;
-	
 }
 
 .navbar-brand {
 	float: right;
 	margin-top: 0;
+	background-color: pink;
 }
 
 .navbar-fixed-left + .container-fluid {
 	margin-left: 135px;
-	background: pink;
 }
 
 @media (max-width: 767px) {
