@@ -1,25 +1,49 @@
 .navbar-fixed-left {
-	width: 139px;
+	width: 135px;
 	position: fixed;
 	border-radius: 0;
 	height: 100%;
 }
 
-.navbar-fixed-left .navbar-nav > ul {
-	margin: 20px 0;
-	padding: 0 20px 0 0;
-	text-align: right;
+.header-position {
+	position: fixed;
+	top: 0px;
+	left: 0;
+	bottom: 30px;
+	width: 135px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .navbar-fixed-left .navbar-nav > li {
 	float: none; 
-	margin-bottom: 10px;
+	margin-bottom: 5px;
+	text-align: right;
 	
 }
 
+.navbar-brand {
+	float: right;
+	margin-top: 0;
+}
+
 .navbar-fixed-left + .container-fluid {
-	margin-left: 139px;
+	margin-left: 135px;
 	background: pink;
 }
 
+@media (max-width: 767px) {
+	.header-position {
+		display: none;
+	}
 
+	.navbar-fixed-left + .container-fluid {
+		margin-left: 0;
+	}
+	.navbar-fixed-left {
+		width: 50px;
+		height: 10px;
+		position: fixed;
+	}
+}
