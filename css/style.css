@@ -3,46 +3,36 @@
 	position: fixed;
 	border-radius: 0;
 	height: 100%;
+	display: flex;
+	min-height: 100vh;
 }
 
 .logo {
-	background: url("/img/logo-art-3.svg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;
-	background-color: pink;
 	height: 80px;
-	/*
-	display: block;
-	background-size: 300px 300px;
-	*/
-
+	padding-bottom: 0;
+	margin-bottom: 0;
+	/* Remove text if needed 
 	text-indent: 100%;
 	white-space: nowrap;
-	overflow: hidden;
+	overflow: hidden; */
 }
 
 .header-position {
-	position: fixed;
+	
 	top: 0px;
 	left: 0;
-	bottom: 30px;
+	bottom: 0px;
 	width: 135px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+
 }
 
-.navbar-fixed-left .navbar-nav > li {
+.navbar-fixed-left .navbar-nav > li , a {
 	float: none; 
-	margin-bottom: 5px;
+	margin-bottom: 3px;
 	text-align: right;
-}
-
-.navbar-brand {
-	float: right;
-	margin-top: 0;
-	background-color: pink;
 }
 
 .navbar-fixed-left + .container-fluid {
