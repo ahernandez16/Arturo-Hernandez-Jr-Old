@@ -22,6 +22,7 @@
 }
 
 .logo {
+	max-width: 135px;
 	background-image: url('../img/logo-art-2.svg');
 	background-repeat: no-repeat;
 	background-position: center;
@@ -48,6 +49,12 @@
 	padding-right: 20px;
 }
 
+.mobile-nav-toggle {
+	width: 50px;
+	height: 2px;
+	background: #333;
+}
+
 /* MAIN CONTENT CSS */
 .main-content {
 	background-color: pink;
@@ -63,7 +70,30 @@
 }
 
 @media (max-width: 767px) {
-	header {
+	.home-wrap {
+		display: block;
+	} 
+
+	.home-wrap header {
+		width: auto;
+		padding: 20px 0;
+	}
+
+	.header-position {
+		width: auto;
+		position: relative;
+		top: auto;
+		bottom: auto;
+		left: auto;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.site-nav, .email-link {
 		display: none;
+	}
+
+	.logo {
+		height: 45px;
 	}
 }
