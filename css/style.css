@@ -60,7 +60,6 @@
 	/* background: pink; */
 	display: none;
 	margin-right: 20px;
-	display: flex;
 	align-items: center;
 }
 
@@ -88,10 +87,20 @@
 
 .img-block-1 {
 	width: 300px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .main-content {
 	text-align: center;
+}
+
+.web, .research {
+	background: yellow;
+}
+
+.art, .resume {
+	background: cyan;
 }
 
 @media (max-width: 767px) {
@@ -127,4 +136,5 @@
 	.mobile-nav-toggle {
 		display: flex;
 	}
+	
 }
