@@ -71,6 +71,7 @@
 	width: 100%;
 	background: #333;
 	position: relative;
+	transition: all 0.2s ease-in-out;
 }
 
 .mobile-nav-toggle span:before {
@@ -80,16 +81,17 @@
 	bottom: 17px;
 }
 
-.mobile-nav-toggle  {
+.mobile-nav-toggle:hover span {
 	background: transparent;
 }
 
-.mobile-nav-toggle span:hover:before, span:hover:after {
+.mobile-nav-toggle:hover span:before, 
+.mobile-nav-toggle:hover span:after {
 	transform-origin: center;
 	transform: rotate(45deg);
 	top: 0;
 }
-.mobile-nav-toggle span:hover:before {
+.mobile-nav-toggle:hover span:before {
 	transform: rotate(-45deg);
 }
 
