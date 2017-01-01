@@ -61,6 +61,7 @@
 	display: none;
 	margin-right: 20px;
 	align-items: center;
+	cursor: pointer;
 }
 
 .mobile-nav-toggle span, span:before, span:after {
@@ -77,6 +78,19 @@
 }
 .mobile-nav-toggle span:after {
 	bottom: 17px;
+}
+
+.mobile-nav-toggle span:hover {
+	background: transparent;
+}
+
+.mobile-nav-toggle span:hover:before, span:hover:after {
+	transform-origin: center;
+	transform: rotate(45deg);
+	top: 0;
+}
+.mobile-nav-toggle span:hover:before {
+	transform: rotate(-45deg);
 }
 
 /* MAIN CONTENT CSS */
