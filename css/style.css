@@ -140,6 +140,8 @@ body {
 
 .home-lead {
 	font-size: 36px;
+	line-height: 1.1;
+	margin: 10px;
 }
 
 /* ABOUT SECTION */
@@ -155,11 +157,13 @@ body {
 	font-size: 60px;
 	font-weight: 400;
 	line-height: 1;
+	margin: 10px;
 }
 .transbox {
-	margin-top: 30px;
+	margin-top: 180px;
 	margin-bottom: 30px;
 	background: rgba(255, 255, 255, 0.3);
+	right: 60px;
 }
 
 @media (max-width: 767px) {
@@ -199,5 +203,13 @@ body {
 	.mobile-nav, .is-open {
 		display: none;
 		transform: translateY(0%);
+	}
+
+	/* ABOUT  */
+	.transbox {
+		margin-top: 180px;
+		margin-left: 60px;
+		margin-right: 60px;
+		left: 0px;
 	}
 }
