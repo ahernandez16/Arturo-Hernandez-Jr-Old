@@ -175,6 +175,29 @@ a:hover {
 	background-size: cover;
 	color: white;
 }
+.image-container {
+	position: relative;
+}
+
+.iphone {
+	height: 180px;
+	margin-bottom: 30px;
+
+}
+.iphone-image {
+	height: 125px;
+	top: 26px;
+	padding-left: 8.5px;
+	position: absolute;
+}
+
+.laptop {
+
+}
+
+.laptop-image {
+	
+}
 
 /* ART SECTION */
 .art {
@@ -274,5 +297,10 @@ a:hover {
 
 	.home-lead {
 		font-size: 28px;
+	}
+
+	/* WEB SECTION */
+	.iphone {
+		height: 130px;
 	}
 }
