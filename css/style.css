@@ -5,6 +5,15 @@ body {
 	line-height: 1.6;	
 }
 
+a {
+	color: #3f3f42;
+}
+
+a:hover {
+	color: hotpink;
+	text-decoration: none;
+}
+
 .home-wrap {
 	display: flex;
 	min-height: 100vh;
@@ -141,29 +150,70 @@ body {
 .home-lead {
 	font-size: 36px;
 	line-height: 1.1;
-	margin: 10px;
+	margin: 20px;
 }
 
-/* ABOUT SECTION */
-.about {
+/* HERO SECTION */
+.hero {
 	background-image: url('../img/Me.jpg');
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-.about h2 {
+.hero h2 {
 	color: #3f3f42;
-	font-size: 60px;
+	font-size: 50px;
 	font-weight: 400;
 	line-height: 1;
-	margin: 10px;
 }
 .transbox {
 	margin-top: 180px;
 	margin-bottom: 30px;
 	background: rgba(255, 255, 255, 0.3);
 	right: 60px;
+}
+
+/* WEB SECTION */
+.web {
+	background-image: url('../img/coding.jpg');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.6;
+}
+
+/* ART SECTION */
+.art {
+	background-image: url('../img/color.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.6;
+}
+
+/* PHOTO SECTION */
+.photo {
+	background-image: url('../img/ocean.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.6;
+}
+
+/* RESEARCH SECTION */
+.research {
+
+}
+
+/* RESUME SECTION */
+.resume {
+
+}
+
+/*CONTACT SECTION */
+.contact {
+
 }
 
 @media (max-width: 767px) {
@@ -211,5 +261,13 @@ body {
 		margin-left: 30px;
 		margin-right: 30px;
 		left: 0px;
+	}
+
+	.hero h2 {
+		font-size: 40px;
+	}
+
+	.home-lead {
+		font-size: 28px;
 	}
 }
