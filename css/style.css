@@ -155,19 +155,20 @@ a:hover {
 
 /* HERO SECTION */
 .hero {
-	background-image: url('../img/Me.jpg');
+	background-image: url('../img/me-b.png');
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
+	color: white;
 }
 
 .hero h2 {
-	color: #3f3f42;
 	font-size: 50px;
 	font-weight: 400;
 	line-height: 1;
+	margin-top: 160px;
 }
-.transbox {
+.transbox1 {
 	margin-top: 180px;
 	margin-bottom: 30px;
 	background: rgba(255, 255, 255, 0.3);
@@ -176,29 +177,29 @@ a:hover {
 
 /* WEB SECTION */
 .web {
-	background-image: url('../img/coding.jpg');
+	background-image: url('../img/web-b.png');
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
-	opacity: 0.6;
+	color: white;
 }
 
 /* ART SECTION */
 .art {
-	background-image: url('../img/color.jpg');
+	background-image: url('../img/toy-bur-7.png');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	opacity: 0.6;
+	color: white;
 }
 
 /* PHOTO SECTION */
 .photo {
-	background-image: url('../img/ocean.jpg');
+	background-image: url('../img/camera-blue.png');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	opacity: 0.6;
+	color: white;
 }
 
 /* RESEARCH SECTION */
