@@ -205,8 +205,9 @@ a:hover {
 	position: absolute;
 }
 
-.web p {
-	color: white;
+.github {
+	margin-bottom: 5px;
+	margin-top: 30px;
 }
 
 /* ART SECTION */
@@ -243,6 +244,10 @@ a:hover {
 	background-position: center center;
 	background-size: cover;
 	color: white;
+}
+
+.pdf {
+	height: 180px;
 }
 
 /*CONTACT SECTION */
