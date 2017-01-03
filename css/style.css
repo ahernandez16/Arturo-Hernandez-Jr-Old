@@ -147,7 +147,7 @@ a:hover {
 
 /* HERO SECTION */
 .hero {
-	background-image: url('../img/me-bl-min.png');
+	background-image: url('../img/me-blue.png');
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -212,7 +212,7 @@ a:hover {
 
 /* ART SECTION */
 .art {
-	background-image: url('../img/toy-bur-7-min.png');
+	background-image: url('../img/art-cover.png');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
