@@ -181,22 +181,32 @@ a:hover {
 
 .iphone {
 	height: 180px;
-	margin-bottom: 30px;
-
+	margin-bottom: 40px;
+	position: relative;
+	left: 125px;
 }
 .iphone-image {
-	height: 125px;
+	height: 127px;
 	top: 26px;
-	padding-left: 8.5px;
+	padding-left: 133px;
 	position: absolute;
 }
 
 .laptop {
-
+	height: 200px;
+	position: absolute;
+	left: 0;
 }
 
 .laptop-image {
-	
+	height: 170px;
+	top: 10px;
+	left: 38px;
+	position: absolute;
+}
+
+.web p {
+	color: white;
 }
 
 /* ART SECTION */
@@ -301,6 +311,28 @@ a:hover {
 
 	/* WEB SECTION */
 	.iphone {
-		height: 130px;
+		height: 150px;
+		margin-bottom: 80px;
+		top: 30px;
+	}
+	.iphone-image {
+		height: 116px;
+		top: 48px;
+		padding-left: 130px;
+	}
+	.laptop {
+		left: 50px;
+	}
+	.laptop-image {
+		left: 88px;
+	}
+}
+
+@media (max-width: 615px) {
+	.laptop {
+		left: 0px;
+	}
+	.laptop-image {
+		left: 33px;
 	}
 }
