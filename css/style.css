@@ -228,6 +228,16 @@ a:hover {
 	color: white;
 }
 
+.local-guide {
+	height: 30px;
+}
+
+.trusted {
+	height: 40px;
+}
+
+
+
 /* RESEARCH SECTION */
 .research {
 	background-image: url('../img/corn-gr-min.png');
