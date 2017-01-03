@@ -147,7 +147,7 @@ a:hover {
 
 /* HERO SECTION */
 .hero {
-	background-image: url('../img/me-blue.png');
+	background-image: url('../img/me-blue-1.png');
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -169,7 +169,7 @@ a:hover {
 
 /* WEB SECTION */
 .web {
-	background-image: url('../img/web-b.png');
+	background-image: url('../img/web-b-1.png');
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -212,7 +212,7 @@ a:hover {
 
 /* ART SECTION */
 .art {
-	background-image: url('../img/art-cover.png');
+	background-image: url('../img/art-cover-1.png');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -221,7 +221,7 @@ a:hover {
 
 /* PHOTO SECTION */
 .photo {
-	background-image: url('../img/camera-blue-min.png');
+	background-image: url('../img/camera-blue-1.png');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -240,7 +240,7 @@ a:hover {
 
 /* RESEARCH SECTION */
 .research {
-	background-image: url('../img/corn-gr-min.png');
+	background-image: url('../img/corn-gr-1.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -249,7 +249,7 @@ a:hover {
 
 /* RESUME SECTION */
 .resume {
-	background-image: url('../img/case-b-min.png');
+	background-image: url('../img/case-b-1.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -262,7 +262,7 @@ a:hover {
 
 /*CONTACT SECTION */
 .contact {
-	background-image: url('../img/ocean-bl-min.png');
+	background-image: url('../img/ocean-bl-1.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
