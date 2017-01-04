@@ -21,12 +21,12 @@
 		<div class="mobile-nav">
 			<ul>
 				<li><a href="#">About</a></li>
-				<li><a href="#">Web portfolio</a></li>
-				<li><a href="#">Art stuff</a></li>
-				<li><a href="#">Photos</a></li>
-				<li><a href="#">Research</a></li>
-				<li><a href="#">Resume</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#web">Web portfolio</a></li>
+				<li><a href="#art">Art stuff</a></li>
+				<li><a href="#photo">Photos</a></li>
+				<li><a href="#research">Research</a></li>
+				<li><a href="#resume">Resume</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</div>
 		<!-- SIDEBAR NAV -->
@@ -36,12 +36,12 @@
 				<nav class="site-nav">
 					<ul>
 						<li><a href="#">About</a></li>
-						<li><a href="#">Web portfolio</a></li>
-						<li><a href="#">Art stuff</a></li>
-						<li><a href="#">Photos</a></li>
-						<li><a href="#">Research</a></li>
-						<li><a href="#">Resume</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="#web">Web portfolio</a></li>
+						<li><a href="#art">Art stuff</a></li>
+						<li><a href="#photo">Photos</a></li>
+						<li><a href="#research">Research</a></li>
+						<li><a href="#resume">Resume</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
 				<a href="mailto:art3her@gmail.com" class="email-link">+email me</a>
@@ -64,7 +64,7 @@
 				</div> <!-- end of HERO SECTION -->
 
 				<!-- WEB PORTFOLIO SECTION -->
-				<div class="row web">
+				<div id="web" class="row web">
 					<div class="col-md-12">
 						<p class="home-lead">...coding responsive websites...</p>
 					</div>
@@ -78,18 +78,19 @@
 					</div>
 					<div class="col-sm-6 col-lg-4">
 						<div class="row">
-							<div class="col-xs-6">
-								Hello world!
-							</div>
-							<div class="col-xs-6">
-								Sup!
+							<div class="col-xs-12">
+								<img src="img/lpdf.png" class="web-proj">
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-sm-12">
+							<div class="col-sm-6">
 								<p class="center-block">
-									<a href="http://github.com/ahernandez16" target="_blank"><button type="button" class="btn btn-info btn-lg btn-block github">Follow me on Github</button></a>
-									<a href="#"  target="_blank"><button type="button" class="btn btn-default btn-lg btn-block">HIRE ME</button></a>
+									<a href="http://github.com/ahernandez16" target="_blank"><button type="button" class="btn btn-info github btn-block">Follow me on Github</button></a>
+								</p>
+							</div>
+							<div class="col-sm-6">
+								<p class="center-block">
+									<a href="#"  target="_blank"><button type="button" class="btn btn-default btn-block">HIRE ME</button></a>
 								</p>
 							</div>
 						</div>
@@ -97,60 +98,82 @@
 				</div> <!-- end of WEB PORTFOLIO SECTION -->
 
 				<!-- ART PORTFOLIO SECTION -->
-				<div class="row art" style="height: 300px;">
-					<div class="col-md-12">
-						<p class="home-lead">...designing and creating...</p>
-					</div>
+				<div id="art" class="row art">
 					<div class="col-sm-6 col-lg-4 col-lg-offset-2">
+						<p class="home-lead">...designing and creating...</p>
 						<h3>ART STUFF HERE!</h3>
 					</div>
-					<div class="col-sm-6 col-lg-4">
+					<div class="col-sm-6">
 						<div class="row">
-							<div class="col-xs-3">Art</div>
-							<div class="col-xs-3">Art1</div>
-							<div class="col-xs-3">Art2</div>
-							<div class="col-xs-3">Art3</div>
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-1.png"></a>
+							</div>
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-2.png"></a>
+							</div>
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-3.png"></a>
+							</div>
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-4.png"></a>
+							</div>
 						</div>
 						<div class="row">
-							<div class="col-xs-3">Art4</div>
-							<div class="col-xs-3">Art5</div>
-							<div class="col-xs-3">Art6</div>
-							<div class="col-xs-3">Art7</div>
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-5.png"></a>
+							</div>
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-6.png"></a>
+							</div>
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-7.png"></a>
+							</div>
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-8.png"></a>
+							</div>
 						</div>
 						<div class="row">
-							<div class="col-xs-3">Art8</div>
-							<div class="col-xs-3">Art9</div>
-							<div class="col-xs-3">Art10</div>
-							<div class="col-xs-3">Art11</div>
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-9.png"></a>
+							</div>
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-10.png"></a>
+							</div>
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-11.png"></a>
+							</div>
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-12.png"></a>
+							</div>
 						</div>
 					</div>
 				</div> <!-- end of ART PORTFOLIO SECTION -->
 
 				<!-- 360 PHOTOGRAPHER SECTION -->
-				<div class="row photo">
+				<div id="photo" class="row photo">
 					<div class="col-md-12">
 						<p class="home-lead">...photographing for a virtual world...</p>
 					</div>
-					<div class="col-md-12">
-						<!-- MIGHT BE MAKING SITE SLOW
-						<iframe src="https://www.google.com/maps/embed?pb=!1m0!4v1483123861073!6m8!1m7!1sF%3A-8tUcHwmXV04%2FV_6u7-BgUZI%2FAAAAAAAANwc%2F_0TCQnBTjuceTth_R79HBKdp_N2xwaj2gCLIB!2m2!1d11.540978321507016!2d-85.63286870551332!3f198!4f0!5f0.7820865974627469" width="90%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+					<div class="col-sm-9">
+						<!-- MIGHT BE MAKING SITE SLOW -->
+						<iframe src="https://www.google.com/maps/embed?pb=!1m0!4v1483123861073!6m8!1m7!1sF%3A-8tUcHwmXV04%2FV_6u7-BgUZI%2FAAAAAAAANwc%2F_0TCQnBTjuceTth_R79HBKdp_N2xwaj2gCLIB!2m2!1d11.540978321507016!2d-85.63286870551332!3f198!4f0!5f0.7820865974627469" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
-					<div class="col-sm-8 col-sm-offset-2">
-						<div class="row">
-							<div class="col-xs-6">
-							</div>
-							<div class="col-xs-6">
+					<div class="col-sm-3">
+						<!--<div class="row">
+							<div class="col-xs-6">-->
+								<img src="img/guide-tiny.png" class="guide">
 								<img src="img/SVtrusted-EN.png" class="trusted">
-							</div>
-							<div class="col-sm-12">
+							
+							<!--<div class="col-sm-6">-->
 								<button type="button" class="btn btn-success">See my Profile</button>
-							</div>
-						</div>
+							<!--</div>
+						</div>-->
 					</div>
 				</div> <!-- end of 360 PHOTO SECTION -->
 
 				<!-- RESEARCH SECTION -->
-				<div class="row research">
+				<!--
+				<div id="research" class="row research">
 					<div class="col-md-12">
 						<p class="home-lead">...research driven...</p>
 					</div>
@@ -172,31 +195,65 @@
 					<div class="col-sm-6 col-lg-4">
 						<h3>YOUTUBE</h3>
 					</div>
-				</div> <!-- end of RESEARCH SECTION -->
+				</div> --><!-- end of RESEARCH SECTION -->
 
 				<!-- RESUME SECTION -->
-				<div class="row resume">
-					<div class="col-md-12">
+				<div id="resume" class="row resume">
+				<div class="col-sm-6 col-lg-4 resume-col-1">
 						<p class="home-lead">...so download my latest resume...</p>
-					</div>
-					<div class="col-sm-6 col-lg-4 col-lg-offset-2">
 						<img src="img/pdf-icon.png" class="pdf">
 						<p>
 							<button type="button" class="btn btn-info btn-block">Download</button>
 						</p>
 					</div>
-					<div class="col-sm-6 col-lg-4">
-						<h3>Experience 1</h3>
-						<p>Things I did...</p>
-						<h3>Experience 2</h3>
-						<p>Things I did...</p>
-						<h3>Experience 3</h3>
-						<p>Things I did...</p>
+					<div class="col-sm-6 col-lg-4col-lg-offset-2 resume-col-2">
+						<h4>Experience</h4>
+						<div class="row experience">
+							<div class="col-sm-3">
+								<p>Potrero, Costa Rica</p>
+								<p>Aug - Dec 2016</p>
+							</div>
+							<div class="col-sm-9 ">
+								<h5><a href="http://abriendomentes.org" target="_blank">Abriendo Mentes</a></h5>
+								<h6>Computer Instructor</h6>
+								<ul>
+									<li>- Instructed computer classes to both children and adults in the community following the established technology education curriculum, All classes taught in Spanish.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row experience">
+							<div class="col-sm-3">
+								<p>Mount Vernon, IA</p>
+								<p>Aug - May 2016</p>
+							</div>
+							<div class="col-sm-9 ">
+								<h5><a href="http://www.cornellcollege.edu/library/ctl/ats/" target="_blank">Academic Technology Studio, Cole Library</a></h5>
+								<h6>Peer Tech Consultant</h6>
+								<ul>
+									<li>- Assisted peers on personal, professional or academic projects that dealt with the usage of
+hardware and software tools.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row experience">
+							<div class="col-sm-3">
+								<p>Mount Vernon, IA</p>
+								<p>May - Dec 2015</p>
+							</div>
+							<div class="col-sm-9 ">
+								<h5><a href="https://digitalzapotectombs.com/meet-the-team/" target="_blank">Cornell College Summer Research Institute</a></h5>
+								<h6>Research Assistant</h6>
+								<ul>
+									<li>- Created 3D digital models and 3D printed models from documentation cards.</li>
+									<li>- Rendered digital models into different applications for scholarly and institutional use.</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div> <!-- end of RESUME SECTION -->
 
 				<!-- CONTACT SECTION -->
-				<div class="row contact" style="height: 300px;">
+				<div id="contact" class="row contact" style="height: 300px;">
 					<div class="col-md-12">
 						<p class="home-lead">... and email me!</p>
 					</div>
