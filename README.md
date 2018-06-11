@@ -6,4 +6,4 @@ Stack used
 -Bootstrap
 
 ### Online demo ###
-https://ahernandez16.github.io/Arturo-Hernandez-Jr-v2/
+https://ahernandez16.github.io/Arturo-Hernandez-Jr-Old/
